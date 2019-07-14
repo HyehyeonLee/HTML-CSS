@@ -1,0 +1,65 @@
+@charset utf-8;
+
+/* made by Hyehyeon Lee
+Gachon University */
+
+.divider {width:90%;
+max-width:1132px;
+margin:0 auto;
+margin-top:77px;
+background:#eee;}
+
+/* menu start */
+nav ul{
+	width: 100%;
+	background-color:#004e96;
+	text-align:center;
+     }
+
+nav ul li{
+	display: inline-block;
+	padding: 20px 16px;
+	text-decoration:none;
+	}
+
+nav ul li a{
+	color: white;
+	padding: 18px 40px;
+                }
+nav ul li a:hover{
+	background-color:white;;
+	color:black;
+}
+/* menu end */
+
+/* content start */
+.title{
+	text-align: center;
+	color:#004e96;
+	padding-top: 20px;
+    padding-bottom: 20px;
+   	font-size: 40px;
+    letter-spacing : 3px;
+    text-transform:uppercase;
+}
+
+section div {
+	/* width: 90%; */
+	padding : 20px 120px;
+	/* word-spacing: 10px; */
+}
+
+.con{
+	text-align:center;
+	line-height: 1.8;
+}
+
+/* content end */
+
+/* footer start */
+#footer{
+	clear:both;
+	padding : 100px 100px;
+	text-align:center;
+	color : gray;
+}
